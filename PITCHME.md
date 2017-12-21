@@ -1,15 +1,4 @@
-# Ansible for Pythonistas
-
-#### Python Valencia Meetup
-##### November 2017
-
-<div align="left">
-<small>
-Miguel Ángel Tribaldos  
-Senior Developer  
-@mtribaldos
-</small>
-</div>
+# Docker básico
 
 ---
 
