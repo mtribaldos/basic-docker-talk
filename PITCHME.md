@@ -14,6 +14,7 @@
 - Proporciona aislamiento de su entorno
 - Herramienta orientada a *devels*
 
+
 #### ¿Qué NO es Docker?
 
 - No es una máquina virtual
@@ -39,12 +40,6 @@
 ---
 
 ### Entorno de desarrollo:
-```yaml
-```
-
----
-
-### Entorno de desarrollo:
 
 ```yaml
 wedip:
@@ -53,7 +48,7 @@ wedip:
     - ./ssl:/etc/apache2/ssl
   ports:
     - 8000:80
-  image: 853117510175.dkr.ecr.eu-central-1.amazonaws.com/\
+  image: 853117510175.dkr.ecr.eu-central-1.amazonaws.com/ \
          wedip
 ```
 ---
@@ -66,15 +61,15 @@ wedip:
     - /etc/localtime:/etc/localtime:ro
     - /home/ubuntu/docker/ssl:/etc/apache2/ssl
     - ./wedip_config:/var/www/Main/config
-    - /home/ubuntu/medip-cloud-data/wedip/media:\
+    - /home/ubuntu/medip-cloud-data/wedip/media: \
       /media/wedip
-    - /home/ubuntu/medip-cloud-data/wedip/reports:\
+    - /home/ubuntu/medip-cloud-data/wedip/reports: \
       /var/www/Wedip_Report/php/pdf
   environment:
     - VIRTUAL_HOST=wedip.mediphealth.com
     - VIRTUAL_PROTO=https
     - VIRTUAL_PORT=443
-  image: 853117510175.dkr.ecr.eu-central-1.amazonaws.com/\
+  image: 853117510175.dkr.ecr.eu-central-1.amazonaws.com/ \
          wedip
 
 vpn:
@@ -86,6 +81,6 @@ vpn:
   cap_add:
     - NET_ADMIN
   command: gateway-hospitales.ovpn
-  image: 853117510175.dkr.ecr.eu-central-1.amazonaws.com/\
+  image: 853117510175.dkr.ecr.eu-central-1.amazonaws.com/ \
          openvpn
 ```
