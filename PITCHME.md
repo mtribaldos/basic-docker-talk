@@ -1,4 +1,5 @@
-# Docker en 20 minutos
+# Docker 
+## en solo 20 minutos
 
 ---
 
@@ -22,11 +23,11 @@
 ## ¿Cómo lo consigue?
 
 - Trucos de kernel (LXC)
-- + formato portable de imágenes
-- + build automático
-- + versionado
-- + facilita el reuso (imagen padre)
-- + facilita compartir
+  + formato portable de imágenes
+  + build automático
+  + versionado
+  + facilita el reuso (imagen padre)
+  + facilita compartir
 
 --- 
 
