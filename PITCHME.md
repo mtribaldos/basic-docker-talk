@@ -9,11 +9,11 @@
 
 ---
 
-## ¿Qué es Docker?
+### ¿Qué es Docker?
 
 - Herramienta orientada a *devels*
 
-## ¿Qué NO es Docker?
+### ¿Qué NO es Docker?
 
 - No es una máquina virtual
 - No está orientada a *sysops*
