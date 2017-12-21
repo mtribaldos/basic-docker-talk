@@ -2,17 +2,20 @@
 
 ---
 
-# Demo
+## Demo
+
+#### dockersamples/static-site
 
 ---
 
 ## ¿Qué es Docker?
 
-- Herramienta de *devels*, más que de *sistema*
+- Herramienta orientada a *devels*
 
 ## ¿Qué NO es Docker?
 
-- NO equivale a una VM
+- No es una máquina virtual
+- No está orientada a *sysops*
 
 ---
 
@@ -27,10 +30,15 @@
 
 --- 
 
-### Imágenes
+### Ejemplo con migración Wedip
 
+853117510175.dkr.ecr.eu-central-1.amazonaws.com/wedip
 
-```python
+---
+
+### Entornos de ejecución:
+
+```
 # ~/fabfile.py
 
 from fabric.api import *
