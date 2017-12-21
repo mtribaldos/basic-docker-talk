@@ -1,50 +1,34 @@
-# Docker básico
+# Docker en 20 minutos
 
 ---
 
-### I've just coded my app. Now what?
-
-## Time to ship it, but...
-
-- Provision infrastructure
-- Manage configuration
-- Deploy application
+# Demo
 
 ---
 
-### Is there a better way than doing by hand?
+## ¿Qué es Docker?
 
-- Avoid repeating manual work
-- Ability to reset and reconfigure infrastructure
-- Visibility
+- Herramienta de *devels*, más que de *sistema*
 
-+++
+## ¿Qué NO es Docker?
 
-## Infrastructure and
-## Configuration
-## as Code
+- NO equivale a una VM
 
 ---
 
-##### The simple approach
-### Shell scripts
+## ¿Cómo lo consigue?
 
-- Not robust, bad maintenance
-- Explicit transport mechanisms. Non-standard methods
-- Hard to achieve reusable code
+- Trucos de kernel (LXC)
+- + formato portable de imágenes
+- + build automático
+- + versionado
+- + facilita el reuso (imagen padre)
+- + facilita compartir
 
-+++
+--- 
 
-### They end up being use and throw artifacts!
+### Imágenes
 
----
-
-##### The pythonic approach
-### What about Fabric?
-
-- Writing infrastructure code in Python
-- Fine for deployment tool, not for CM
-- Suitable for small environments
 
 ```python
 # ~/fabfile.py
