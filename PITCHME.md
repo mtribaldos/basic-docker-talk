@@ -24,6 +24,9 @@ dockersamples/static-site
 - No está orientada a *sys-ops*
 
 ---
+
+#### Diferencias VMs y containers
+
 ![vm_vs_containers](https://images.idgesg.net/images/article/2017/06/virtualmachines-vs-containers-100727624-large.jpg)
 ---
 
