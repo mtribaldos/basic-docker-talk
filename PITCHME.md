@@ -1,6 +1,6 @@
 # Docker 
 ## en solo 20 minutos
-![Whale](https://zdnet2.cbsistatic.com/hub/i/r/2014/09/05/b2ed410c-34ce-11e4-9e6a-00505685119a/resize/770xauto/a2d1dc4c4f299b854e5817fe1d7b43fe/docker-logo.png)
+![Whale](https://www.docker.com/sites/default/files/social/docker_facebook_share.png)
 
 ---
 
