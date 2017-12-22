@@ -1,3 +1,4 @@
-logo: http://logo-logotype.com/wp-content/uploads/2016/11/Docker_logo_logotype.png
+#logo: http://logo-logotype.com/wp-content/uploads/2016/11/Docker_logo_logotype.png
+logo: https://zdnet2.cbsistatic.com/hub/i/r/2014/09/05/b2ed410c-34ce-11e4-9e6a-00505685119a/resize/770xauto/a2d1dc4c4f299b854e5817fe1d7b43fe/docker-logo.png
 theme: sky
 theme-override: PITCHME.css
