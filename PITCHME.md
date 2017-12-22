@@ -6,7 +6,7 @@
 
 ## Demo
 
-#### dockersamples/static-site
+dockersamples/static-site
 
 ---
 
