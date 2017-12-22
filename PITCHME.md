@@ -13,8 +13,10 @@
 #### ¿Qué es Docker?
 
 - Proporciona aislamiento de su entorno
+- Proporciona infrastructura inmutable
 - Herramienta orientada a *devels*
 
+---
 
 #### ¿Qué NO es Docker?
 
