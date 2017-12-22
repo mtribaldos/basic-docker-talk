@@ -18,7 +18,7 @@
 
 ---
 
-#### ¿Qué NO es Docker?
+#### ¿Qué **no** es Docker?
 
 - No es una máquina virtual
 - No está orientada a *sys-ops*
